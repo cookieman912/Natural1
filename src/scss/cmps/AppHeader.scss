@@ -1,0 +1,36 @@
+.main-header {
+    margin-top: 0px;
+    background-color: $mainColor;
+    width: 100%;
+    .header-container {
+        max-width: 1400px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-size: 2.5rem;
+            margin-left: 20px;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                text-decoration: none;
+                font-size: 1.5rem;
+                margin-right: 20px;
+                .active-nav {
+                    color: $secondaryColor;
+                }
+                a {
+                    color: $textColor;
+                }
+            }
+        }
+    }
+}

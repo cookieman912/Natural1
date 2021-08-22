@@ -1,0 +1,15 @@
+//general
+@import './etc/setup.scss';
+@import './etc/variables.scss';
+
+
+*body{
+    background-color: $bgc;
+    color:$textColor
+}
+
+
+//cmps
+@import './cmps/AppHeader.scss';
+//pages
+
