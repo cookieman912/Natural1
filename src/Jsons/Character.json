@@ -1,0 +1,417 @@
+[
+    {
+        "_id": "0",
+        "name": "Alonara Dayleaf",
+        "race": "Stout Halfling",
+        "classes": [
+            {
+                "name": "Fighter",
+                "subclasss": "Arcane Archer",
+                "level": 5
+            },
+            {
+                "name": "Cleric",
+                "subclasss": "Knowledge Domain",
+                "level": 2
+            }
+        ],
+        "level": 7,
+        "AbilityScores": {
+            "strength": {
+                "score": 13,
+                "modifier": 1
+            },
+            "dexterity": {
+                "score": 19,
+                "modifier": 4
+            },
+            "constitution": {
+                "score": 15,
+                "modifier": 2
+            },
+            "intelligence": {
+                "score": 13,
+                "modifier": 1
+            },
+            "wisdom": {
+                "score": 16,
+                "modifier": 3
+            },
+            "charisma": {
+                "score": 12,
+                "modifier": 1
+            }
+        },
+        "savingThrows": {
+            "strength": {
+                "modifier": 1,
+                "isProficient": true
+            },
+            "dexterity": {
+                "modifier": 4,
+                "isProficient": false
+            },
+            "constitution": {
+                "modifier": 2,
+                "isProficient": true
+            },
+            "intelligence": {
+                "modifier": 1,
+                "isProficient": false
+            },
+            "wisdom": {
+                "modifier": 3,
+                "isProficient": false
+            },
+            "charisma": {
+                "modifier": 1,
+                "isProficient": false
+            }
+        },
+        "proficiencyBonus": 3,
+        "walkingSpeed": 25,
+        "inspiration": false,
+        "initiativeModifier": 4,
+        "maxHitPoints": 58,
+        "currentHitPoints": 42,
+        "temporaryHitPoints": 0,
+        "armorClass": 17,
+        "defenses": {
+            "resistances": [
+                "poison"
+            ],
+            "immunities": []
+        },
+        "skills": {
+            "acrobatics": {
+                "skillName": "Acrobatics",
+                "abilityScore": "dexterity",
+                "isProficient": true,
+                "isDoubleProficent": false
+            },
+            "animalHandling": {
+                "skillName": "Animal Handling",
+                "abilityScore": "wisdom",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "arcana": {
+                "skillName": "Arcana",
+                "abilityScore": "intelligence",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "athletics": {
+                "skillName": "Athletics",
+                "abilityScore": "strength",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "deception": {
+                "skillName": "Deception",
+                "abilityScore": "charisma",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "history": {
+                "skillName": "History",
+                "abilityScore": "intelligence",
+                "isProficient": false,
+                "isDoubleProficent": true
+            },
+            "insight": {
+                "skillName": "Insight",
+                "abilityScore": "wisdom",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "intimidation": {
+                "skillName": "Intimidation",
+                "abilityScore": "charisma",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "investigation": {
+                "skillName": "Investigation",
+                "abilityScore": "intelligence",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "medicine": {
+                "skillName": "medicine",
+                "abilityScore": "wisdom",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "nature": {
+                "skillName": "Nature",
+                "abilityScore": "Intelligence",
+                "isProficient": true,
+                "isDoubleProficent": false
+            },
+            "perception": {
+                "skillName": "Perception",
+                "abilityScore": "wisdom",
+                "isProficient": true,
+                "isDoubleProficent": false
+            },
+            "persuasion ": {
+                "skillName": "Persuasion",
+                "abilityScore": "charisma",
+                "isProficient": true,
+                "isDoubleProficent": false
+            },
+            "religion": {
+                "skillName": "Religion",
+                "abilityScore": "intelligence",
+                "isProficient": false,
+                "isDoubleProficent": true
+            },
+            "sleightOfHand": {
+                "skillName": "Sleight of Hand",
+                "abilityScore": "dexterity",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "stealth": {
+                "skillName": "Stealth",
+                "abilityScore": "dexterity",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "survival": {
+                "skillName": "Survival",
+                "abilityScore": "wisdom",
+                "isProficient": false,
+                "isDoubleProficent": false
+            }
+        },
+        "miscProficiencies": {
+            "armor": [
+                "Heavy armor",
+                "Light armor",
+                "Medium armor",
+                "Shields"
+            ],
+            "weapons": [
+                "Martial weapons",
+                "Simple weapons"
+            ],
+            "tools": [
+                "Dragonchess Set"
+            ],
+            "languages": [
+                "Celestial",
+                "Common",
+                "Draconic",
+                "Elvish",
+                "Halfling"
+            ]
+        }
+    },
+    {
+        "_id": "1",
+        "name": "Big White Sarathorn",
+        "race": "White Dragonborn",
+        "classes": [
+            {
+                "name": "Sorcerer",
+                "subclasss": "Storm Sorcery",
+                "level": 5
+            }
+        ],
+        "level": 5,
+        "AbilityScores": {
+            "strength": {
+                "score": 13,
+                "modifier": 1
+            },
+            "dexterity": {
+                "score": 19,
+                "modifier": 4
+            },
+            "constitution": {
+                "score": 15,
+                "modifier": 2
+            },
+            "intelligence": {
+                "score": 13,
+                "modifier": 1
+            },
+            "wisdom": {
+                "score": 16,
+                "modifier": 3
+            },
+            "charisma": {
+                "score": 12,
+                "modifier": 1
+            }
+        },
+        "savingThrows": {
+            "strength": {
+                "modifier": 1,
+                "isProficient": true
+            },
+            "dexterity": {
+                "modifier": 4,
+                "isProficient": false
+            },
+            "constitution": {
+                "modifier": 2,
+                "isProficient": true
+            },
+            "intelligence": {
+                "modifier": 1,
+                "isProficient": false
+            },
+            "wisdom": {
+                "modifier": 3,
+                "isProficient": false
+            },
+            "charisma": {
+                "modifier": 1,
+                "isProficient": false
+            }
+        },
+        "proficiencyBonus": 3,
+        "walkingSpeed": 25,
+        "inspiration": false,
+        "initiativeModifier": 4,
+        "maxHitPoints": 58,
+        "currentHitPoints": 42,
+        "temporaryHitPoints": 0,
+        "armorClass": 17,
+        "defenses": {
+            "resistances": [
+                "poison"
+            ],
+            "immunities": []
+        },
+        "skills": {
+            "acrobatics": {
+                "skillName": "Acrobatics",
+                "abilityScore": "dexterity",
+                "isProficient": true,
+                "isDoubleProficent": false
+            },
+            "animalHandling": {
+                "skillName": "Animal Handling",
+                "abilityScore": "wisdom",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "arcana": {
+                "skillName": "Arcana",
+                "abilityScore": "intelligence",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "athletics": {
+                "skillName": "Athletics",
+                "abilityScore": "strength",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "deception": {
+                "skillName": "Deception",
+                "abilityScore": "charisma",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "history": {
+                "skillName": "History",
+                "abilityScore": "intelligence",
+                "isProficient": false,
+                "isDoubleProficent": true
+            },
+            "insight": {
+                "skillName": "Insight",
+                "abilityScore": "wisdom",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "intimidation": {
+                "skillName": "Intimidation",
+                "abilityScore": "charisma",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "investigation": {
+                "skillName": "Investigation",
+                "abilityScore": "intelligence",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "medicine": {
+                "skillName": "medicine",
+                "abilityScore": "wisdom",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "nature": {
+                "skillName": "Nature",
+                "abilityScore": "Intelligence",
+                "isProficient": true,
+                "isDoubleProficent": false
+            },
+            "perception": {
+                "skillName": "Perception",
+                "abilityScore": "wisdom",
+                "isProficient": true,
+                "isDoubleProficent": false
+            },
+            "persuasion ": {
+                "skillName": "Persuasion",
+                "abilityScore": "charisma",
+                "isProficient": true,
+                "isDoubleProficent": false
+            },
+            "religion": {
+                "skillName": "Religion",
+                "abilityScore": "intelligence",
+                "isProficient": false,
+                "isDoubleProficent": true
+            },
+            "sleightOfHand": {
+                "skillName": "Sleight of Hand",
+                "abilityScore": "dexterity",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "stealth": {
+                "skillName": "Stealth",
+                "abilityScore": "dexterity",
+                "isProficient": false,
+                "isDoubleProficent": false
+            },
+            "survival": {
+                "skillName": "Survival",
+                "abilityScore": "wisdom",
+                "isProficient": false,
+                "isDoubleProficent": false
+            }
+        },
+        "miscProficiencies": {
+            "armor": [
+                "Heavy armor",
+                "Light armor",
+                "Medium armor",
+                "Shields"
+            ],
+            "weapons": [
+                "Martial weapons",
+                "Simple weapons"
+            ],
+            "tools": [
+                "Dragonchess Set"
+            ],
+            "languages": [
+                "Celestial",
+                "Common",
+                "Draconic",
+                "Elvish",
+                "Halfling"
+            ]
+        }
+    }
+]

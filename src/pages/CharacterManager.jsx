@@ -1,5 +1,14 @@
-import React from 'react'
-export default function CharacterManager(){
+import React, { useState } from "react";
+import { charService } from "../Services/CharacterService";
+import {CharacterList} from "../cmps/CharacterList"
 
-   return( <h1>hey im the character manager</h1>)
+export default function CharacterManager() {
+  const characters = charService.query();
+
+  return (
+    <main>
+      
+       <CharacterList characters={characters}/>
+    </main>
+  );
 }
