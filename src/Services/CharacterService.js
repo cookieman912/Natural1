@@ -1,8 +1,29 @@
 
-const defaultCharacters = require('../Jsons/Character.json')
-export const charService={
-    query,
+import { storageService } from './async-storage.service.js'
+
+const CHAR_KEY = "charDB";
+let defaultCharacters = storageService.query(CHAR_KEY).then(characters => {
+    console.log('characters',characters)
+defaultCharacters=characters;
+if (defaultCharacters.length===0 || !defaultCharacters) {
+    defaultCharacters = require('../Jsons/Character.json')
+    storageService.postMany(CHAR_KEY,defaultCharacters)
 }
-function query(){
-return defaultCharacters
+})
+
+
+
+export const charService = {
+    query,
+    getById,
+}
+
+function query() {
+    
+   return storageService.query(CHAR_KEY);
+}
+
+function getById(id) {
+    console.log(id)
+return storageService.get(CHAR_KEY,id)
 }

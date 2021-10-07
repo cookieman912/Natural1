@@ -3,6 +3,7 @@
         "_id": "0",
         "name": "Alonara Dayleaf",
         "race": "Stout Halfling",
+        "background": "Soldier",
         "classes": [
             {
                 "name": "Fighter",
@@ -16,32 +17,32 @@
             }
         ],
         "level": 7,
-        "AbilityScores": {
-            "strength": {
+        "abilityScores": [
+             {  "name": "strength",
                 "score": 13,
                 "modifier": 1
             },
-            "dexterity": {
+            {  "name": "dexterity",
                 "score": 19,
                 "modifier": 4
             },
-            "constitution": {
+            {  "name": "constitution",
                 "score": 15,
                 "modifier": 2
             },
-            "intelligence": {
+            {  "name": "intelligence",
                 "score": 13,
                 "modifier": 1
             },
-            "wisdom": {
+            {  "name": "wisdom",
                 "score": 16,
                 "modifier": 3
             },
-            "charisma": {
+            {  "name": "charisma",
                 "score": 12,
                 "modifier": 1
             }
-        },
+        ],
         "savingThrows": {
             "strength": {
                 "modifier": 1,
@@ -213,6 +214,7 @@
         "_id": "1",
         "name": "Big White Sarathorn",
         "race": "White Dragonborn",
+        "background": "criminal",
         "classes": [
             {
                 "name": "Sorcerer",
@@ -221,32 +223,32 @@
             }
         ],
         "level": 5,
-        "AbilityScores": {
-            "strength": {
-                "score": 13,
-                "modifier": 1
-            },
-            "dexterity": {
-                "score": 19,
-                "modifier": 4
-            },
-            "constitution": {
-                "score": 15,
-                "modifier": 2
-            },
-            "intelligence": {
-                "score": 13,
-                "modifier": 1
-            },
-            "wisdom": {
-                "score": 16,
-                "modifier": 3
-            },
-            "charisma": {
-                "score": 12,
-                "modifier": 1
-            }
-        },
+        "abilityScores": [
+            {  "name": "strength",
+               "score": 13,
+               "modifier": 1
+           },
+           {  "name": "dexterity",
+               "score": 19,
+               "modifier": 4
+           },
+           {  "name": "constitution",
+               "score": 15,
+               "modifier": 2
+           },
+           {  "name": "intelligence",
+               "score": 13,
+               "modifier": 1
+           },
+           {  "name": "wisdom",
+               "score": 16,
+               "modifier": 3
+           },
+           {  "name": "charisma",
+               "score": 12,
+               "modifier": 1
+           }
+       ],
         "savingThrows": {
             "strength": {
                 "modifier": 1,

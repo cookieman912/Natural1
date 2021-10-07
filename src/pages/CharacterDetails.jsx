@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useState } from "react";
+import { charService } from "../Services/CharacterService";
+import { useParams } from "react-router";
+import CharGeneralInfo from "../cmps/CharGeneralInfo";
+import AbilityScores from "../cmps/AbilityScores";
 
-export default function CharacterDetails({character}){
-
-   return(<div><h1>hey i am the details</h1>
-         {/* <p>{character.name}</p> */}
-    </div> )
+export default function CharacterDetails() {
+  // console.log({character})
+  const [character, setCharacter] = useState(null);
+  const param = useParams();
+  const id=param.id
+  if (character!=null)
+    return (
+      <div className="character-sheet">
+        <CharGeneralInfo character={character}/>
+        <AbilityScores character={character}/>
+      </div>
+    );
+  else {
+   charService.getById(id)
+    .then(char =>{setCharacter(char) });    
+    return <div>loading...</div>;
+  }
 }

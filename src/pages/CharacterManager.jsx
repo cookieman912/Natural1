@@ -1,14 +1,20 @@
 import React, { useState } from "react";
 import { charService } from "../Services/CharacterService";
-import {CharacterList} from "../cmps/CharacterList"
+import { CharacterList } from "../cmps/CharacterList";
 
 export default function CharacterManager() {
-  const characters = charService.query();
+  const [characters, setcharacters] = useState(null);
 
-  return (
-    <main>
-      
-       <CharacterList characters={characters}/>
-    </main>
-  );
+  if (characters != null) {
+    return (
+      <main>
+        list
+        <CharacterList characters={characters} />
+      </main>
+    );
+  } else {
+    charService.query()
+    .then(chars =>(setcharacters(chars)));
+    return <main>loading...</main>;
+  }
 }
