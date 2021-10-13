@@ -1,16 +1,21 @@
 @font-face {
-    font-family: 'celtic';
-    src: url('../../fonts/CelticHand.ttf')
-};
+    font-family: "celtic";
+    src: url("../../fonts/CelticHand.ttf");
+}
 
 @font-face {
-    font-family: 'nunitosans';
-    src: url('../../fonts/NunitoSans-Black.ttf');
+    font-family: "nunitosans";
+    src: url("../../fonts/NunitoSans-Black.ttf");
 }
-body{
-    font-family: 'celtic';
+body {
+    font-family: "celtic";
     box-sizing: border-box;
     text-align: center;
     width: 100%;
     margin: 0px;
+    ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
 }

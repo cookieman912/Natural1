@@ -26,8 +26,7 @@ export default function CharGeneralInfo({ character }) {
             <ul className="level-list">(
               {character.classes.map((dndClass) => {
                 return (
-                  <li>
-                    {" "}
+                  <li> 
                     level {dndClass.level} {dndClass.name}
                   </li>
                 );

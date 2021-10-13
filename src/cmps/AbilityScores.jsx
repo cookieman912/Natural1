@@ -7,8 +7,10 @@ export default function AbilityScores({ character }) {
         {character.abilityScores.map((abilityScore) => {
           return (
             <li>
-              <p>{abilityScore.modifier}</p>
-              <p>{abilityScore.value}</p>
+              <div className="value-container">
+                <p>{abilityScore.modifier}</p>
+                <p>{abilityScore.score}</p>
+              </div>
               <p>{abilityScore.name}</p>
             </li>
           );

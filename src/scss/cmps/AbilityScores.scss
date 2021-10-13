@@ -1,0 +1,41 @@
+.ability-score-container {
+    // border: 2px solid white;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+
+    .ability-score-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        li {
+            background-color: $panelColor;
+            border: 1.5px solid white;
+            border-radius: 0.5em;
+            margin: 10px 10px 10px;
+            width: 130px;
+          .value-container{
+              border:1.5px solid white;
+              border-radius: 0.5em;
+              margin: 10px;
+              p:first-child{
+                  font-size:1.8em;
+                  border:1.5px solid white;
+                  border-radius: 0.2em;
+                  margin: 5px 20px 0px;
+              }
+              p:last-child{
+                font-size:1em;
+                border:1.5px solid white;
+                margin: 10px 30px 5px;
+                border-radius: 50%;
+            }
+          }
+        }
+        li:first-child{
+            margin-left:0px
+        }
+    }
+}
