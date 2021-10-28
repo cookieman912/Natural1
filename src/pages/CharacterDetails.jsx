@@ -5,6 +5,7 @@ import { useParams } from "react-router";
 import CharGeneralInfo from "../cmps/CharGeneralInfo";
 import AbilityScores from "../cmps/AbilityScores";
 import HealthAndStatus from "../cmps/HealthAndStatus";
+import SavingThrows from "../cmps/SavingThrows";
 
 export default function CharacterDetails() {
   // console.log({character})
@@ -17,8 +18,7 @@ export default function CharacterDetails() {
         <CharGeneralInfo character={character}/>
         <AbilityScores character={character}/>
         <HealthAndStatus character={character}/>
-     
-   
+        <SavingThrows character={character}/>
       </div>
     );
   else {

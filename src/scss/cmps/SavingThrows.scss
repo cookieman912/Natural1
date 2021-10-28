@@ -1,0 +1,40 @@
+.saving-throws {
+    margin-top: 15px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $panelColor;
+    border: 2px solid white;
+    border-radius: 0.5em;
+
+    ul {
+      
+        li {
+        
+            margin: 10px 15px 10px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid white;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            button{
+                width:15px;
+                height:15px;
+                border:1px solid white;
+                border-radius: 50%;
+                
+            }
+            .proficient {
+                
+            
+            }
+            .not-proficient {
+                background-color: $panelColor;
+            }
+        }
+        li *{
+            margin-left:5px
+        }
+    }
+}

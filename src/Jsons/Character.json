@@ -18,57 +18,69 @@
         ],
         "level": 7,
         "abilityScores": [
-             {  "name": "strength",
+            {
+                "name": "strength",
                 "score": 13,
                 "modifier": 1
             },
-            {  "name": "dexterity",
+            {
+                "name": "dexterity",
                 "score": 19,
                 "modifier": 4
             },
-            {  "name": "constitution",
+            {
+                "name": "constitution",
                 "score": 15,
                 "modifier": 2
             },
-            {  "name": "intelligence",
+            {
+                "name": "intelligence",
                 "score": 13,
                 "modifier": 1
             },
-            {  "name": "wisdom",
+            {
+                "name": "wisdom",
                 "score": 16,
                 "modifier": 3
             },
-            {  "name": "charisma",
+            {
+                "name": "charisma",
                 "score": 12,
                 "modifier": 1
             }
         ],
-        "savingThrows": {
-            "strength": {
+        "savingThrows": [
+            {
+                "name": "strength",
                 "modifier": 1,
                 "isProficient": true
             },
-            "dexterity": {
+            {
+                "name": "dexterity",
                 "modifier": 4,
                 "isProficient": false
             },
-            "constitution": {
+            {
+                "name": "constitution",
                 "modifier": 2,
                 "isProficient": true
             },
-            "intelligence": {
+            {
+                "name": "intelligence",
                 "modifier": 1,
                 "isProficient": false
             },
-            "wisdom": {
+            {
+                "name": "wisdom",
                 "modifier": 3,
                 "isProficient": false
             },
-            "charisma": {
+            {
+                "name": "charisma",
                 "modifier": 1,
                 "isProficient": false
             }
-        },
+        ],
         "proficiencyBonus": 3,
         "walkingSpeed": 25,
         "inspiration": false,
@@ -224,57 +236,69 @@
         ],
         "level": 5,
         "abilityScores": [
-            {  "name": "strength",
-               "score": 13,
-               "modifier": 1
-           },
-           {  "name": "dexterity",
-               "score": 19,
-               "modifier": 4
-           },
-           {  "name": "constitution",
-               "score": 15,
-               "modifier": 2
-           },
-           {  "name": "intelligence",
-               "score": 13,
-               "modifier": 1
-           },
-           {  "name": "wisdom",
-               "score": 16,
-               "modifier": 3
-           },
-           {  "name": "charisma",
-               "score": 12,
-               "modifier": 1
-           }
-       ],
-        "savingThrows": {
-            "strength": {
+            {
+                "name": "strength",
+                "score": 13,
+                "modifier": 1
+            },
+            {
+                "name": "dexterity",
+                "score": 19,
+                "modifier": 4
+            },
+            {
+                "name": "constitution",
+                "score": 15,
+                "modifier": 2
+            },
+            {
+                "name": "intelligence",
+                "score": 13,
+                "modifier": 1
+            },
+            {
+                "name": "wisdom",
+                "score": 16,
+                "modifier": 3
+            },
+            {
+                "name": "charisma",
+                "score": 12,
+                "modifier": 1
+            }
+        ],
+        "savingThrows": [
+            {
+                "name": "strength",
                 "modifier": 1,
                 "isProficient": true
             },
-            "dexterity": {
+            {
+                "name": "dexterity",
                 "modifier": 4,
                 "isProficient": false
             },
-            "constitution": {
+            {
+                "name": "constitution",
                 "modifier": 2,
                 "isProficient": true
             },
-            "intelligence": {
+            {
+                "name": "intelligence",
                 "modifier": 1,
                 "isProficient": false
             },
-            "wisdom": {
+            {
+                "name": "wisdom",
                 "modifier": 3,
                 "isProficient": false
             },
-            "charisma": {
+            {
+                "name": "charisma",
                 "modifier": 1,
                 "isProficient": false
             }
-        },
+        ],
         "proficiencyBonus": 3,
         "walkingSpeed": 25,
         "inspiration": false,

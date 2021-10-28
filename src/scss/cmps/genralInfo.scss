@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   background-color: $panelColor;
   align-items: center;
+  border: 2px solid white;
   border-radius: 0.5em;
   .full-name {
     font-size: 1.5em;
@@ -40,5 +41,5 @@
       }
     }
   }
-  border: 2px solid white;
+
 }

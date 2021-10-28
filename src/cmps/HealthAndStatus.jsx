@@ -19,7 +19,7 @@ export default function HealthAndStatus({ character }) {
         <div className="resistances">
           <p>Resistances:</p>
           {character.defenses.resistances.map((resistance) => {
-            return <span>{resistance}</span>;
+            return <span key={resistance}>{resistance}</span>;
           })}
         </div>
         <div className="immunities">

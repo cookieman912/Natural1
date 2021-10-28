@@ -6,7 +6,7 @@ export default function AbilityScores({ character }) {
       <ul className="ability-score-list">
         {character.abilityScores.map((abilityScore) => {
           return (
-            <li>
+            <li key={abilityScore.name}>
               <div className="value-container">
                 <p>{abilityScore.modifier}</p>
                 <p>{abilityScore.score}</p>
