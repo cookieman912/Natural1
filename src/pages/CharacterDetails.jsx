@@ -6,7 +6,7 @@ import CharGeneralInfo from "../cmps/CharGeneralInfo";
 import AbilityScores from "../cmps/AbilityScores";
 import HealthAndStatus from "../cmps/HealthAndStatus";
 import SavingThrows from "../cmps/SavingThrows";
-
+import Skills from "../cmps/Skills";
 export default function CharacterDetails() {
   // console.log({character})
   const [character, setCharacter] = useState(null);
@@ -19,6 +19,7 @@ export default function CharacterDetails() {
         <AbilityScores character={character}/>
         <HealthAndStatus character={character}/>
         <SavingThrows character={character}/>
+        <Skills character={character}/>
       </div>
     );
   else {

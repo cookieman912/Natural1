@@ -1,22 +1,24 @@
-.saving-throws {
+.skills {
     margin-top: 15px;
     width: fit-content;
     display: flex;
     flex-wrap: wrap;
+   
     background-color: $panelColor;
     border: 2px solid white;
     border-radius: 0.5em;
 
     ul {padding: 10px;
-      
+        display:flex;
+        flex-direction: column;
         li {
         
             margin: 10px 15px 10px;
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-between;
             border: 2px solid white;
             padding: 10px;
-            justify-content: center;
             align-items: center;
             width:160px;
             button{

@@ -95,110 +95,110 @@
             ],
             "immunities": []
         },
-        "skills": {
-            "acrobatics": {
+        "skills": [
+            {
                 "skillName": "Acrobatics",
                 "abilityScore": "dexterity",
                 "isProficient": true,
                 "isDoubleProficent": false
             },
-            "animalHandling": {
+            {
                 "skillName": "Animal Handling",
                 "abilityScore": "wisdom",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "arcana": {
+            {
                 "skillName": "Arcana",
                 "abilityScore": "intelligence",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "athletics": {
+            {
                 "skillName": "Athletics",
                 "abilityScore": "strength",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "deception": {
+            {
                 "skillName": "Deception",
                 "abilityScore": "charisma",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "history": {
+            {
                 "skillName": "History",
                 "abilityScore": "intelligence",
                 "isProficient": false,
                 "isDoubleProficent": true
             },
-            "insight": {
+            {
                 "skillName": "Insight",
                 "abilityScore": "wisdom",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "intimidation": {
+            {
                 "skillName": "Intimidation",
                 "abilityScore": "charisma",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "investigation": {
+            {
                 "skillName": "Investigation",
                 "abilityScore": "intelligence",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "medicine": {
+            {
                 "skillName": "medicine",
                 "abilityScore": "wisdom",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "nature": {
+            {
                 "skillName": "Nature",
-                "abilityScore": "Intelligence",
+                "abilityScore": "intelligence",
                 "isProficient": true,
                 "isDoubleProficent": false
             },
-            "perception": {
+            {
                 "skillName": "Perception",
                 "abilityScore": "wisdom",
                 "isProficient": true,
                 "isDoubleProficent": false
             },
-            "persuasion ": {
+            {
                 "skillName": "Persuasion",
                 "abilityScore": "charisma",
                 "isProficient": true,
                 "isDoubleProficent": false
             },
-            "religion": {
+            {
                 "skillName": "Religion",
                 "abilityScore": "intelligence",
                 "isProficient": false,
                 "isDoubleProficent": true
             },
-            "sleightOfHand": {
+            {
                 "skillName": "Sleight of Hand",
                 "abilityScore": "dexterity",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "stealth": {
+            {
                 "skillName": "Stealth",
                 "abilityScore": "dexterity",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "survival": {
+            {
                 "skillName": "Survival",
                 "abilityScore": "wisdom",
                 "isProficient": false,
                 "isDoubleProficent": false
             }
-        },
+        ],
         "miscProficiencies": {
             "armor": [
                 "Heavy armor",
@@ -313,110 +313,110 @@
             ],
             "immunities": []
         },
-        "skills": {
-            "acrobatics": {
+        "skills": [
+            {
                 "skillName": "Acrobatics",
                 "abilityScore": "dexterity",
                 "isProficient": true,
                 "isDoubleProficent": false
             },
-            "animalHandling": {
+            {
                 "skillName": "Animal Handling",
                 "abilityScore": "wisdom",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "arcana": {
+            {
                 "skillName": "Arcana",
                 "abilityScore": "intelligence",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "athletics": {
+            {
                 "skillName": "Athletics",
                 "abilityScore": "strength",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "deception": {
+            {
                 "skillName": "Deception",
                 "abilityScore": "charisma",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "history": {
+            {
                 "skillName": "History",
                 "abilityScore": "intelligence",
                 "isProficient": false,
                 "isDoubleProficent": true
             },
-            "insight": {
+            {
                 "skillName": "Insight",
                 "abilityScore": "wisdom",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "intimidation": {
+            {
                 "skillName": "Intimidation",
                 "abilityScore": "charisma",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "investigation": {
+            {
                 "skillName": "Investigation",
                 "abilityScore": "intelligence",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "medicine": {
+            {
                 "skillName": "medicine",
                 "abilityScore": "wisdom",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "nature": {
+            {
                 "skillName": "Nature",
-                "abilityScore": "Intelligence",
+                "abilityScore": "intelligence",
                 "isProficient": true,
                 "isDoubleProficent": false
             },
-            "perception": {
+            {
                 "skillName": "Perception",
                 "abilityScore": "wisdom",
                 "isProficient": true,
                 "isDoubleProficent": false
             },
-            "persuasion ": {
+            {
                 "skillName": "Persuasion",
                 "abilityScore": "charisma",
                 "isProficient": true,
                 "isDoubleProficent": false
             },
-            "religion": {
+            {
                 "skillName": "Religion",
                 "abilityScore": "intelligence",
                 "isProficient": false,
                 "isDoubleProficent": true
             },
-            "sleightOfHand": {
+            {
                 "skillName": "Sleight of Hand",
                 "abilityScore": "dexterity",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "stealth": {
+            {
                 "skillName": "Stealth",
                 "abilityScore": "dexterity",
                 "isProficient": false,
                 "isDoubleProficent": false
             },
-            "survival": {
+            {
                 "skillName": "Survival",
                 "abilityScore": "wisdom",
                 "isProficient": false,
                 "isDoubleProficent": false
             }
-        },
+        ],
         "miscProficiencies": {
             "armor": [
                 "Heavy armor",
